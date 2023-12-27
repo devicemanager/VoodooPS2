@@ -12,7 +12,7 @@ VoodooPS2 Changelog
 #### v2.3.3
 - Fixed rapidly opening pages in browsers while scrolling with the trackpoint
 - Fixed buttons on various trackpads (especially those without trackpoints attached)
-- Fixed DynamicEWMode problem on Lenovo ThinkPad Laptops (acidanthera/bugtracker#890)
+- Fixed DynamicEWMode problem on Lenovo ThinkPad Laptops (devicemanager/bugtracker#890)
 
 #### v2.3.2
 - Added `ps2kbdonly=1` argument not to disable touchpad line on reboot, thx @Kethen
@@ -52,7 +52,7 @@ VoodooPS2 Changelog
 - Added NumLockSupport & NumLockOnAtBoot
 
 #### v2.2.1
-- Fix issue with registering of services matched by property name "RM,deliverNotifications". It solves issue with broadcasting timestamp for the last pressed key and handling of QuietTimeAfterTyping [see bug #1415](https://github.com/acidanthera/bugtracker/issues/1415) 
+- Fix issue with registering of services matched by property name "RM,deliverNotifications". It solves issue with broadcasting timestamp for the last pressed key and handling of QuietTimeAfterTyping [see bug #1415](https://github.com/devicemanager/bugtracker/issues/1415) 
 
 #### v2.2.0
 - Added VoodooRmi compatibility to allow external touchpad resets
@@ -126,4 +126,4 @@ VoodooPS2 Changelog
 - Ignore hovering above the touchpad
 - \[Temporary\] Support overriding touchpad dimensions for old touchpads that don't report minimum coordinates
 
-Change of earlier versions may be tracked in [commits](https://github.com/acidanthera/VoodooPS2/commits/master) and [releases](https://github.com/acidanthera/VoodooPS2/releases).
+Change of earlier versions may be tracked in [commits](https://github.com/devicemanager/VoodooPS2/commits/master) and [releases](https://github.com/devicemanager/VoodooPS2/releases).

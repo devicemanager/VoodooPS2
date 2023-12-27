@@ -1,7 +1,7 @@
 VoodooPS2
 =========
 
-[![Build Status](https://github.com/acidanthera/VoodooPS2/workflows/CI/badge.svg?branch=master)](https://github.com/acidanthera/VoodooPS2/actions) [![Scan Status](https://scan.coverity.com/projects/22190/badge.svg?flat=1)](https://scan.coverity.com/projects/22190)
+[![Build Status](https://github.com/devicemanager/VoodooPS2/workflows/CI/badge.svg?branch=master)](https://github.com/devicemanager/VoodooPS2/actions) [![Scan Status](https://scan.coverity.com/projects/22190/badge.svg?flat=1)](https://scan.coverity.com/projects/22190)
 
 New **VoodooPS2Trackpad** uses VoodooInput's Magic Trackpad II emulation in order to use macOS native driver instead of handling all gestures itself. This enables the use of any from one to four finger gestures defined by Apple including:
 * Look up & data detectors
@@ -46,7 +46,7 @@ For VoodooPS2Trackpad.kext to work multitouch interface engine, named VoodooInpu
     process execute the following command in the project directory to have VoodooInput bootstrapped:
 
     ```
-    src=$(/usr/bin/curl -Lfs https://raw.githubusercontent.com/acidanthera/VoodooInput/master/VoodooInput/Scripts/bootstrap.sh) && eval "$src" || exit 1
+    src=$(/usr/bin/curl -Lfs https://raw.githubusercontent.com/devicemanager/VoodooInput/master/VoodooInput/Scripts/bootstrap.sh) && eval "$src" || exit 1
     ```
 
 ## Touchpad and Keyboard Input Toggle

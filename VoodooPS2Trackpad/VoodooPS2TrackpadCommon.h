@@ -3,7 +3,7 @@
 //  VoodooPS2Trackpad
 //
 //  Created by Le Bao Hiep on 27/09/2020.
-//  Copyright © 2020 Acidanthera. All rights reserved.
+//  Copyright © 2020 devicemanager. All rights reserved.
 //
 
 #ifndef VoodooPS2TrackpadCommon_h
